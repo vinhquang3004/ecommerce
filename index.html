@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/variable.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/intro.css" />
+    <link rel="stylesheet" href="./css/feature.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/offer.css" />
+    <link rel="stylesheet" href="./css/review.css" />
+    <link rel="stylesheet" href="./css/brand.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- -header -->
+    <section class="header">
+      <div class="header-container container">
+        <nav class="header__navbar" id="myTopnav">
+          <div class="header__logo">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+          <input type="checkbox" id="check" style="display: none;">
+
+          <ul class="header__list">
+            <li class="header__item"><a class = "active" href="">Home</a></li>
+            <li class="header__item"><a href="">Products</a></li>
+            <li class="header__item"><a href="">About</a></li>
+            <li class="header__item"><a href="">Contact</a></li>
+            <li class="header__item"><a href="">Account</a></li>
+          </ul>
+          <div class="header__cart-icon">
+            <img src="./images/cart.png" class="cart-icon" />
+            <label for= "check">
+                <img
+                  src="./images/menu.png"
+                  class="menu-icon"
+                />
+            </label>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- -header -->
+
+    <!-- -intro 1 row, 2 col -->
+    <section class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <h1 class="intro__title">Give Your Workout <br />A New Style</h1>
+            <p class="intro__text">
+              Success isn't always about greatness. Iis's about consistency.
+              Consistent <br />hard work gains success. Greatness will come.
+            </p>
+            <button class="btn btn--primary">
+              Explore Now<i class="bx bx-right-arrow-alt"></i>
+            </button>
+          </div>
+          <div class="col-2">
+            <div class="intro__image">
+              <img src="./images/image1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -intro -->
+
+    <!-- -feature 1 row, 3 col-->
+    <section class="feature">
+      <div class="container">
+        <div class="feature__main">
+          <div class="row">
+            <div class="col-3">
+              <img src="./images/category-1.jpg" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./images/category-2.jpg" alt="" />
+            </div>
+            <div class="col-3">
+              <img src="./images/category-3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -feature -->
+
+    <!-- - product 1 row, 4 col-->
+    <section class="product">
+      <div class="container">
+        <div class="product__main">
+          <div class="product__heading">
+            <h1 class="product__title">Featured Products</h1>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-1.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-2.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Black Printed T-shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-3.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-4.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product__main">
+          <div class="product__heading">
+            <h1 class="product__title">Featured Products</h1>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-5.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-6.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-7.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-8.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-2">
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-9.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-10.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-11.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="product__item">
+                <div class="product__image">
+                  <img src="./images/product-12.jpg" alt="" />
+                </div>
+                <div class="product__content">
+                  <h2 class="product__name">Red Printed T-Shirt</h2>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                  </div>
+                  <h4 class="product__price">$50.00</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - product -->
+
+    <!-- - offer -->
+    <section class="offer">
+      <div class="container">
+        <div class="offer__main">
+          <div class="row">
+            <div class="col-2">
+              <div class="offer-image">
+                <img src="./images/exclusive.png" alt="" />
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="offer__content">
+                <p class="offer__content__text">
+                  Exclusively Available on RedStore
+                </p>
+                <h1 class="offer__content__title">Smart Band 4</h1>
+                <p class="offer__content__text">
+                  The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
+                  AMOLED color full-touch display with adjustable brightness, so
+                  everything is clear as can be.
+                </p>
+                <button class="offer__content__btn btn btn--primary">
+                  Buy Now
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - offer -->
+
+    <!-- - review -->
+    <section class="review">
+      <div class="container">
+        <div class="review__main">
+          <div class="row">
+            <div class="col-3">
+              <div class="review__items">
+                <i class="review__synbol bx bxs-comment-detail"></i>
+                <p class="review__comment">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  sunt itaque nihil natus cumque quisquam hic, esse voluptatem.
+                </p>
+
+                <div class="review__rating rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bx-star"></i>
+                </div>
+
+                <div class="review__avatar-image">
+                  <img src="./images/user-1.png" alt="" />
+                </div>
+                <h2 class="review__user-name">Sean Parker</h2>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="review__items">
+                <i class="review__synbol bx bxs-comment-detail"></i>
+                <p class="review__comment">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  sunt itaque nihil natus cumque quisquam hic, esse voluptatem.
+                </p>
+
+                <div class="review__rating rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bx-star"></i>
+                </div>
+
+                <div class="review__avatar-image">
+                  <img src="./images/user-2.png" alt="" />
+                </div>
+                <h2 class="review__user-name">Mike Smith</h2>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="review__items">
+                <i class="review__synbol bx bxs-comment-detail"></i>
+                <p class="review__comment">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  sunt itaque nihil natus cumque quisquam hic, esse voluptatem.
+                </p>
+
+                <div class="review__rating rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bx-star"></i>
+                </div>
+
+                <div class="review__avatar-image">
+                  <img src="./images/user-3.png" alt="" />
+                </div>
+                <h2 class="review__user-name">Mabel Joe</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - review -->
+
+    <!-- - Brand -->
+    <section class="brand">
+      <div class="container">
+        <div class="brand__main">
+          <div class="row">
+                <div class="brand__logo col-5">
+                  <img src="./images/logo-coca-cola.png" alt="" />
+                </div>
+                <div class="brand__logo col-5">
+                  <img src="./images/logo-godrej.png" alt="" />
+                </div>
+                <div class="brand__logo col-5">
+                  <img src="./images/logo-oppo.png" alt="" />
+                </div>
+                <div class="brand__logo col-5">
+                  <img src="./images/logo-paypal.png" alt="" />
+                </div>
+                <div class="brand__logo col-5">
+                  <img src="./images/logo-philips.png" alt="" />
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - Brand -->
+
+    <!-- - footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <div class="row">
+            <div class="footer__col-1">
+              <h1 class="footer__title">Download Our App</h1>
+              <p class="footer__text">
+                Download App for Android and ios mobile
+              </p>
+              <div class="footer__app-img">
+                <div class="footer__chplay">
+                  <img src="./images/play-store.png" alt="" />
+                </div>
+                <div class="footer__appstore">
+                  <img src="./images/app-store.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="footer__col-2">
+              <div class="footer__logo">
+                <img src="./images/logo-white.png" alt="" />
+              </div>
+              <p class="footer__text">
+                Our Purpose is To Sustainably Make the Pleasure and Benefits of
+                Sports Accessible to the Many
+              </p>
+            </div>
+            <div class="footer__col-3">
+              <h1 class="footer__title">Useful Links</h1>
+              <ul class="footer__useful-list">
+                <li class="footer__useful-item footer__text">Coupons</li>
+                <li class="footer__useful-item footer__text">Blog Post</li>
+                <li class="footer__useful-item footer__text">Return Policy</li>
+                <li class="footer__useful-item footer__text">Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer__col-3">
+              <h1 class="footer__title">Follow Us</h1>
+              <ul class="footer__useful-list">
+                <li class="footer__useful-item footer__text">Facebook</li>
+                <li class="footer__useful-item footer__text">Twitter</li>
+                <li class="footer__useful-item footer__text">Instagram</li>
+                <li class="footer__useful-item footer__text">YouTube</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__copy-right">
+            <p class="footer__text">Copyright 2021 - Quang Vinh Shop</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- - footer -->
+
+    <script>
+      //   const headerList = document.querySelector(".header__list");
+
+      //   function menutoggle() {
+      //     if ((headerList.style.display === "none")) {
+      //       headerList.style.display = "block";
+      //     }else{
+      //       headerList.style.display = "none";
+      //     }
+      //   }
+
+      //   const headerList = document.querySelector(".header__list");
+
+      //   function menutoggle() {
+      //     if (headerList.style.display === "none") {
+      //       headerList.style.display = "flex";
+      //     } else {
+      //       headerList.style.display = "none";
+      //     }
+      //   }
+    </script>
+  </body>
+</html>

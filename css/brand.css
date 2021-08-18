@@ -1,0 +1,28 @@
+.brand{
+    margin-bottom: 100px;
+}
+.brand__main{
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+}
+.brand__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 100px;
+
+    -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.brand__logo:hover{
+    filter: none;
+}

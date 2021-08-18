@@ -1,0 +1,30 @@
+.intro {
+  background: #e5ffd8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #e5ffd8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #e5ffd8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.intro__title {
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+.intro__text {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+.intro__image {
+  padding: 50px 0;
+
+  transition: transform 0.5s ease;
+}
+
+.intro__image:hover{
+  transform: scale(1.1);
+}

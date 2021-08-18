@@ -1,0 +1,48 @@
+.review{
+        margin-bottom: 100px;
+
+}
+.review__synbol{
+    display: block;
+    /* text-align: center; */
+
+    color: var(--primary-color);
+    font-size: 5rem;
+
+    margin: 20px 0;
+}
+.review__main{
+    text-align: center;
+
+}
+.review__items{
+    padding: 30px;
+    box-shadow: 0px 0px 10px 5px #cbcbcb44;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.review__items:hover{
+    transform: translateY(-5px);
+}
+.review__comment{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    }
+.review__avatar-image{
+    margin: 25px 0 15px;
+}
+.review__avatar-image img{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 50px;
+    cursor: pointer;
+}
+.review__user-name{
+    font-size: 2rem;
+}
+.review__rating{
+    font-size: 3.5rem;
+}
